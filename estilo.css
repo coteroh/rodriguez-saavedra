@@ -4,27 +4,33 @@
 }
 
 body{
-	background:rgba(255,255,255,1);
+	background:rgba(0, 0, 0, 1);
 	color:rgba(25,25,25,1);
 	font-family: 'Poppins', sans-serif;
 	font-weight:300;
 }
 
-h1, h2, h3, h4{
+h1{
+	font-family: 'Anton', sans-serif;
+	font-weight:700; 
+	font-size:7em;
+}
+
+h2, h3, h4{
 	font-family: 'Montserrat', sans-serif; 
 	font-weight:700; 
 }
 
 h1{
 	letter-spacing:0.1em;
-	color:rgba(255,255,255,0.9);
+	color:rgba(250, 208, 0, 1);
 	text-shadow: 1px 1px 0 #999;	
 	text-align:center;
 }
 
 h2{
 	letter-spacing:0.02em; 
-	color:rgba(255,255,255,0.6); 
+	color:rgba(255,255,255,1); 
 	padding:0.2em 0; 
 	text-shadow: 1px 1px 0 #999;
 	text-align:center;		
@@ -32,13 +38,18 @@ h2{
 
 h3{
 	letter-spacing:0.2em; 
-	color:rgba(0,0,0,.75); 
+	color:rgba(255, 255, 255, 1);
 	padding:2em 0 0.6em 0; 
 	text-shadow: 1px 1px 0 #ccc;
 	text-align:center;	
 }
 
-h4, h5, h6{
+h4
+{
+	color:rgba(255, 255, 255, 1);
+}
+
+h5, h6{
 	font-weight:left;
 	font-weight:600; 	
 }
@@ -81,21 +92,21 @@ video{
 	}
 
 .dupla a{
-	color:rgba(255,0,0,0.75);
+	color:rgba(0,0,0,1);
 	text-decoration:none;
 	font-weight:700;
 }
 
 .dupla a:hover{
-	color:rgba(255,0,0,1);
+	color:rgba(250, 208, 0, 1);
 	text-decoration:underline;
 }
 
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
-	background-image:url('media/dupla-01.jpg');
+	background-color:rgba(255, 255, 255, 1);
+	background-image:url('https://media.giphy.com/media/2Ys5aKly2yZnIawhB0/giphy.gif');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -106,13 +117,13 @@ video{
 
 .primera p{padding: 2% 40% 2% 2%;}
 
-.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
+.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal; }
 
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-color:rgba(231,240,239,1);
-	background-image:url('media/dupla-02.jpg');
+	background-color:rgba(255, 255, 255, 1);
+	background-image:url('https://media.giphy.com/media/xjbzmUJpqyoV7haqjT/giphy.gif');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -134,7 +145,7 @@ video{
 #portafolio{
 	width:100%;
 	padding-bottom:1%;
-	background:linear-gradient(to bottom right, #F2E6D4, #E7F0EF);
+	background:black;
 }
 
 .item {
@@ -180,6 +191,7 @@ video{
 
 footer{
 	width:100%;
+	color:rgba(255, 255, 255, 1);
 	padding:3em 0 1em 0;
 	text-align:center;
 	font-family: 'Montserrat', sans-serif; 
@@ -204,12 +216,13 @@ footer hr{
 		width:96%;
 		padding:2%;
 		float:left;
+
 	}
 	.item{
 		width:48%;
 		margin:1%;
-		background:#F0E5D3;
-		color:#333;
+		background:#ffffff;
+		color:#afafaf;
 	}
 
 	footer hr{
